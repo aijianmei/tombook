@@ -56,6 +56,10 @@
 		45BD5AFE13AE721A00D6FE97 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45BD5AFD13AE721A00D6FE97 /* MessageUI.framework */; };
 		45D5AD9F1610E66B00706B9A /* HISTORY.md in Resources */ = {isa = PBXBuildFile; fileRef = 45D5AD9E1610E66B00706B9A /* HISTORY.md */; };
 		45D5ADA31610EADD00706B9A /* ReaderDocumentOutline.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D5ADA21610EADC00706B9A /* ReaderDocumentOutline.m */; };
+		4A06082A18E02ED7005AD5D5 /* libGoogleAdMobAds.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A0607DB18E02ED7005AD5D5 /* libGoogleAdMobAds.a */; };
+		4A06082B18E02ED7005AD5D5 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4A0607DC18E02ED7005AD5D5 /* README.txt */; };
+		4A06083318E02EF7005AD5D5 /* 泡妞指导系列之解剖女人的心理,教你如何泡妞.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4A06083218E02EF7005AD5D5 /* 泡妞指导系列之解剖女人的心理,教你如何泡妞.pdf */; };
+		4A06083518E02F30005AD5D5 /* Images-2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A06083418E02F30005AD5D5 /* Images-2.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -134,6 +138,34 @@
 		45D5AD9E1610E66B00706B9A /* HISTORY.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HISTORY.md; sourceTree = "<group>"; };
 		45D5ADA11610EADC00706B9A /* ReaderDocumentOutline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReaderDocumentOutline.h; path = Sources/ReaderDocumentOutline.h; sourceTree = "<group>"; };
 		45D5ADA21610EADC00706B9A /* ReaderDocumentOutline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReaderDocumentOutline.m; path = Sources/ReaderDocumentOutline.m; sourceTree = "<group>"; };
+		4A06074918E02ED6005AD5D5 /* DFPBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFPBannerView.h; sourceTree = "<group>"; };
+		4A06074A18E02ED6005AD5D5 /* DFPExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFPExtras.h; sourceTree = "<group>"; };
+		4A06074B18E02ED6005AD5D5 /* DFPInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFPInterstitial.h; sourceTree = "<group>"; };
+		4A06074C18E02ED6005AD5D5 /* DFPSwipeableBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFPSwipeableBannerView.h; sourceTree = "<group>"; };
+		4A06074D18E02ED6005AD5D5 /* GADAdSizeDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdSizeDelegate.h; sourceTree = "<group>"; };
+		4A06074E18E02ED6005AD5D5 /* GADAppEventDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAppEventDelegate.h; sourceTree = "<group>"; };
+		4A06074F18E02ED6005AD5D5 /* GADSwipeableBannerViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADSwipeableBannerViewDelegate.h; sourceTree = "<group>"; };
+		4A0607C918E02ED6005AD5D5 /* GADCustomEventBanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADCustomEventBanner.h; sourceTree = "<group>"; };
+		4A0607CA18E02ED6005AD5D5 /* GADCustomEventBannerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADCustomEventBannerDelegate.h; sourceTree = "<group>"; };
+		4A0607CB18E02ED6005AD5D5 /* GADCustomEventExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADCustomEventExtras.h; sourceTree = "<group>"; };
+		4A0607CC18E02ED6005AD5D5 /* GADCustomEventInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADCustomEventInterstitial.h; sourceTree = "<group>"; };
+		4A0607CD18E02ED6005AD5D5 /* GADCustomEventInterstitialDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADCustomEventInterstitialDelegate.h; sourceTree = "<group>"; };
+		4A0607CE18E02ED6005AD5D5 /* GADCustomEventRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADCustomEventRequest.h; sourceTree = "<group>"; };
+		4A0607D018E02ED6005AD5D5 /* GADSearchBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADSearchBannerView.h; sourceTree = "<group>"; };
+		4A0607D118E02ED6005AD5D5 /* GADSearchRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADSearchRequest.h; sourceTree = "<group>"; };
+		4A0607D218E02ED6005AD5D5 /* GADAdMobExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdMobExtras.h; sourceTree = "<group>"; };
+		4A0607D318E02ED6005AD5D5 /* GADAdNetworkExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdNetworkExtras.h; sourceTree = "<group>"; };
+		4A0607D418E02ED6005AD5D5 /* GADAdSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdSize.h; sourceTree = "<group>"; };
+		4A0607D518E02ED6005AD5D5 /* GADBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADBannerView.h; sourceTree = "<group>"; };
+		4A0607D618E02ED6005AD5D5 /* GADBannerViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADBannerViewDelegate.h; sourceTree = "<group>"; };
+		4A0607D718E02ED7005AD5D5 /* GADInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInterstitial.h; sourceTree = "<group>"; };
+		4A0607D818E02ED7005AD5D5 /* GADInterstitialDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInterstitialDelegate.h; sourceTree = "<group>"; };
+		4A0607D918E02ED7005AD5D5 /* GADRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADRequest.h; sourceTree = "<group>"; };
+		4A0607DA18E02ED7005AD5D5 /* GADRequestError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADRequestError.h; sourceTree = "<group>"; };
+		4A0607DB18E02ED7005AD5D5 /* libGoogleAdMobAds.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAdMobAds.a; sourceTree = "<group>"; };
+		4A0607DC18E02ED7005AD5D5 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		4A06083218E02EF7005AD5D5 /* 泡妞指导系列之解剖女人的心理,教你如何泡妞.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "泡妞指导系列之解剖女人的心理,教你如何泡妞.pdf"; sourceTree = "<group>"; };
+		4A06083418E02F30005AD5D5 /* Images-2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = "Images-2.xcassets"; path = "Reader/Images-2.xcassets"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Reader-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Reader-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -143,6 +175,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				4A06082A18E02ED7005AD5D5 /* libGoogleAdMobAds.a in Frameworks */,
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
 				450A670411D27B9D00014BF5 /* QuartzCore.framework in Frameworks */,
@@ -178,6 +211,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				4A06074618E02ED6005AD5D5 /* GoogleAdMobAdsSdkiOS-6.8.0 */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				45943FC217FDC9ED003CC77A /* Reader */,
 				29B97315FDCFA39411CA2CEA /* Support Files */,
@@ -202,6 +236,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				4A06083218E02EF7005AD5D5 /* 泡妞指导系列之解剖女人的心理,教你如何泡妞.pdf */,
 				4541A9D7122EA716001A5E60 /* Localizable.strings */,
 				45AB72DF141FC04B003524C3 /* README.md */,
 				45D5AD9E1610E66B00706B9A /* HISTORY.md */,
@@ -237,6 +272,7 @@
 			children = (
 				45BD5A7C13AE6C3B00D6FE97 /* Sources */,
 				45CED630140BD22A0092F460 /* Support */,
+				4A06083418E02F30005AD5D5 /* Images-2.xcassets */,
 			);
 			name = Reader;
 			sourceTree = "<group>";
@@ -324,6 +360,72 @@
 			name = Support;
 			sourceTree = "<group>";
 		};
+		4A06074618E02ED6005AD5D5 /* GoogleAdMobAdsSdkiOS-6.8.0 */ = {
+			isa = PBXGroup;
+			children = (
+				4A06074718E02ED6005AD5D5 /* Add-ons */,
+				4A0607D218E02ED6005AD5D5 /* GADAdMobExtras.h */,
+				4A0607D318E02ED6005AD5D5 /* GADAdNetworkExtras.h */,
+				4A0607D418E02ED6005AD5D5 /* GADAdSize.h */,
+				4A0607D518E02ED6005AD5D5 /* GADBannerView.h */,
+				4A0607D618E02ED6005AD5D5 /* GADBannerViewDelegate.h */,
+				4A0607D718E02ED7005AD5D5 /* GADInterstitial.h */,
+				4A0607D818E02ED7005AD5D5 /* GADInterstitialDelegate.h */,
+				4A0607D918E02ED7005AD5D5 /* GADRequest.h */,
+				4A0607DA18E02ED7005AD5D5 /* GADRequestError.h */,
+				4A0607DB18E02ED7005AD5D5 /* libGoogleAdMobAds.a */,
+				4A0607DC18E02ED7005AD5D5 /* README.txt */,
+			);
+			name = "GoogleAdMobAdsSdkiOS-6.8.0";
+			path = "../Common_iPhone_20/3PP-SDK/GoogleAdMobAdsSdkiOS-6.8.0";
+			sourceTree = "<group>";
+		};
+		4A06074718E02ED6005AD5D5 /* Add-ons */ = {
+			isa = PBXGroup;
+			children = (
+				4A06074818E02ED6005AD5D5 /* DoubleClick */,
+				4A0607C818E02ED6005AD5D5 /* Mediation */,
+				4A0607CF18E02ED6005AD5D5 /* Search */,
+			);
+			path = "Add-ons";
+			sourceTree = "<group>";
+		};
+		4A06074818E02ED6005AD5D5 /* DoubleClick */ = {
+			isa = PBXGroup;
+			children = (
+				4A06074918E02ED6005AD5D5 /* DFPBannerView.h */,
+				4A06074A18E02ED6005AD5D5 /* DFPExtras.h */,
+				4A06074B18E02ED6005AD5D5 /* DFPInterstitial.h */,
+				4A06074C18E02ED6005AD5D5 /* DFPSwipeableBannerView.h */,
+				4A06074D18E02ED6005AD5D5 /* GADAdSizeDelegate.h */,
+				4A06074E18E02ED6005AD5D5 /* GADAppEventDelegate.h */,
+				4A06074F18E02ED6005AD5D5 /* GADSwipeableBannerViewDelegate.h */,
+			);
+			path = DoubleClick;
+			sourceTree = "<group>";
+		};
+		4A0607C818E02ED6005AD5D5 /* Mediation */ = {
+			isa = PBXGroup;
+			children = (
+				4A0607C918E02ED6005AD5D5 /* GADCustomEventBanner.h */,
+				4A0607CA18E02ED6005AD5D5 /* GADCustomEventBannerDelegate.h */,
+				4A0607CB18E02ED6005AD5D5 /* GADCustomEventExtras.h */,
+				4A0607CC18E02ED6005AD5D5 /* GADCustomEventInterstitial.h */,
+				4A0607CD18E02ED6005AD5D5 /* GADCustomEventInterstitialDelegate.h */,
+				4A0607CE18E02ED6005AD5D5 /* GADCustomEventRequest.h */,
+			);
+			path = Mediation;
+			sourceTree = "<group>";
+		};
+		4A0607CF18E02ED6005AD5D5 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				4A0607D018E02ED6005AD5D5 /* GADSearchBannerView.h */,
+				4A0607D118E02ED6005AD5D5 /* GADSearchRequest.h */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -378,12 +480,15 @@
 			files = (
 				4541A9D8122EA716001A5E60 /* Localizable.strings in Resources */,
 				45AB72C9141FBFCA003524C3 /* Reader-Email.png in Resources */,
+				4A06083318E02EF7005AD5D5 /* 泡妞指导系列之解剖女人的心理,教你如何泡妞.pdf in Resources */,
 				45AB72CA141FBFCA003524C3 /* Reader-Email@2x.png in Resources */,
 				45AB72CB141FBFCA003524C3 /* Reader-Mark-N.png in Resources */,
 				45AB72CC141FBFCA003524C3 /* Reader-Mark-N@2x.png in Resources */,
+				4A06083518E02F30005AD5D5 /* Images-2.xcassets in Resources */,
 				45AB72CD141FBFCA003524C3 /* Reader-Mark-Y.png in Resources */,
 				45AB72CE141FBFCA003524C3 /* Reader-Mark-Y@2x.png in Resources */,
 				45AB72CF141FBFCA003524C3 /* Reader-Print.png in Resources */,
+				4A06082B18E02ED7005AD5D5 /* README.txt in Resources */,
 				45AB72D0141FBFCA003524C3 /* Reader-Print@2x.png in Resources */,
 				45AB72D1141FBFCA003524C3 /* Reader-Thumbs.png in Resources */,
 				45AB72D2141FBFCA003524C3 /* Reader-Thumbs@2x.png in Resources */,
@@ -451,6 +556,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -458,6 +565,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Reader-Prefix.pch";
 				INFOPLIST_FILE = "Reader-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/karakei/Documents/Study/GitTomCallon/Common_iPhone_20/3PP-SDK/GoogleAdMobAdsSdkiOS-6.8.0/Add-ons/GoogleAnalyticsServicesiOS_3.03",
+					"/Users/karakei/Documents/Study/GitTomCallon/Common_iPhone_20/3PP-SDK/GoogleAdMobAdsSdkiOS-6.8.0",
+				);
 				PRODUCT_NAME = Reader;
 			};
 			name = Debug;
@@ -466,11 +578,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Reader-Prefix.pch";
 				INFOPLIST_FILE = "Reader-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/karakei/Documents/Study/GitTomCallon/Common_iPhone_20/3PP-SDK/GoogleAdMobAdsSdkiOS-6.8.0/Add-ons/GoogleAnalyticsServicesiOS_3.03",
+					"/Users/karakei/Documents/Study/GitTomCallon/Common_iPhone_20/3PP-SDK/GoogleAdMobAdsSdkiOS-6.8.0",
+				);
 				PRODUCT_NAME = Reader;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -507,11 +626,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Reader-Prefix.pch";
 				INFOPLIST_FILE = "Reader-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/karakei/Documents/Study/GitTomCallon/Common_iPhone_20/3PP-SDK/GoogleAdMobAdsSdkiOS-6.8.0/Add-ons/GoogleAnalyticsServicesiOS_3.03",
+					"/Users/karakei/Documents/Study/GitTomCallon/Common_iPhone_20/3PP-SDK/GoogleAdMobAdsSdkiOS-6.8.0",
+				);
 				PRODUCT_NAME = Reader;
 			};
 			name = Testing;
