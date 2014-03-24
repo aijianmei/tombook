@@ -66,6 +66,11 @@
 		4A96F40518E05D23002A53D4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A96F40418E05D23002A53D4 /* SystemConfiguration.framework */; };
 		4A96F40618E05D31002A53D4 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A96F3FA18E05C87002A53D4 /* CoreTelephony.framework */; };
 		4A96F40A18E05E08002A53D4 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A96F40918E05E08002A53D4 /* AVFoundation.framework */; };
+		4A96F41118E060B9002A53D4 /* 1536X2048.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A96F40C18E060B9002A53D4 /* 1536X2048.png */; };
+		4A96F41218E060B9002A53D4 /* 320X640.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A96F40D18E060B9002A53D4 /* 320X640.png */; };
+		4A96F41318E060B9002A53D4 /* 640X1136.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A96F40E18E060B9002A53D4 /* 640X1136.png */; };
+		4A96F41418E060B9002A53D4 /* 640X960.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A96F40F18E060B9002A53D4 /* 640X960.png */; };
+		4A96F41518E060B9002A53D4 /* 768X1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A96F41018E060B9002A53D4 /* 768X1024.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -183,6 +188,11 @@
 		4A96F40218E05D17002A53D4 /* libAccessibility.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libAccessibility.dylib; path = usr/lib/libAccessibility.dylib; sourceTree = SDKROOT; };
 		4A96F40418E05D23002A53D4 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		4A96F40918E05E08002A53D4 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		4A96F40C18E060B9002A53D4 /* 1536X2048.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1536X2048.png; sourceTree = "<group>"; };
+		4A96F40D18E060B9002A53D4 /* 320X640.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 320X640.png; sourceTree = "<group>"; };
+		4A96F40E18E060B9002A53D4 /* 640X1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 640X1136.png; sourceTree = "<group>"; };
+		4A96F40F18E060B9002A53D4 /* 640X960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 640X960.png; sourceTree = "<group>"; };
+		4A96F41018E060B9002A53D4 /* 768X1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 768X1024.png; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Reader-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Reader-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -234,6 +244,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				4A96F40B18E060B9002A53D4 /* 了解女人心 */,
 				4A06074618E02ED6005AD5D5 /* GoogleAdMobAdsSdkiOS-6.8.0 */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				45943FC217FDC9ED003CC77A /* Reader */,
@@ -460,6 +471,18 @@
 			path = Search;
 			sourceTree = "<group>";
 		};
+		4A96F40B18E060B9002A53D4 /* 了解女人心 */ = {
+			isa = PBXGroup;
+			children = (
+				4A96F40C18E060B9002A53D4 /* 1536X2048.png */,
+				4A96F40D18E060B9002A53D4 /* 320X640.png */,
+				4A96F40E18E060B9002A53D4 /* 640X1136.png */,
+				4A96F40F18E060B9002A53D4 /* 640X960.png */,
+				4A96F41018E060B9002A53D4 /* 768X1024.png */,
+			);
+			path = "了解女人心";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -517,12 +540,15 @@
 				4A06083318E02EF7005AD5D5 /* 泡妞指导系列之解剖女人的心理,教你如何泡妞.pdf in Resources */,
 				45AB72CA141FBFCA003524C3 /* Reader-Email@2x.png in Resources */,
 				45AB72CB141FBFCA003524C3 /* Reader-Mark-N.png in Resources */,
+				4A96F41218E060B9002A53D4 /* 320X640.png in Resources */,
 				45AB72CC141FBFCA003524C3 /* Reader-Mark-N@2x.png in Resources */,
 				4A06083518E02F30005AD5D5 /* Images.xcassets in Resources */,
 				45AB72CD141FBFCA003524C3 /* Reader-Mark-Y.png in Resources */,
+				4A96F41418E060B9002A53D4 /* 640X960.png in Resources */,
 				45AB72CE141FBFCA003524C3 /* Reader-Mark-Y@2x.png in Resources */,
 				45AB72CF141FBFCA003524C3 /* Reader-Print.png in Resources */,
 				4A06082B18E02ED7005AD5D5 /* README.txt in Resources */,
+				4A96F41318E060B9002A53D4 /* 640X1136.png in Resources */,
 				45AB72D0141FBFCA003524C3 /* Reader-Print@2x.png in Resources */,
 				45AB72D1141FBFCA003524C3 /* Reader-Thumbs.png in Resources */,
 				45AB72D2141FBFCA003524C3 /* Reader-Thumbs@2x.png in Resources */,
@@ -531,9 +557,11 @@
 				455C789D14268F6A0053D73B /* Reader-Button-H.png in Resources */,
 				455C789E14268F6A0053D73B /* Reader-Button-H@2x.png in Resources */,
 				455C789F14268F6A0053D73B /* Reader-Button-N.png in Resources */,
+				4A96F41518E060B9002A53D4 /* 768X1024.png in Resources */,
 				455C78A014268F6A0053D73B /* Reader-Button-N@2x.png in Resources */,
 				4544D87C1610A3C2003DB132 /* Default-568h@2x.png in Resources */,
 				45D5AD9F1610E66B00706B9A /* HISTORY.md in Resources */,
+				4A96F41118E060B9002A53D4 /* 1536X2048.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -605,6 +633,7 @@
 					"/Users/karakei/Documents/Study/GitTomCallon/Common_iPhone_20/3PP-SDK/GoogleAdMobAdsSdkiOS-6.8.0",
 				);
 				PRODUCT_NAME = Reader;
+				PROVISIONING_PROFILE = "B76DE9FF-0918-4645-8DFF-7BE5C32772AE";
 			};
 			name = Debug;
 		};
@@ -615,6 +644,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Huang HaiZhi (VEC788Z89Q)";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Reader-Prefix.pch";
@@ -625,6 +655,7 @@
 					"/Users/karakei/Documents/Study/GitTomCallon/Common_iPhone_20/3PP-SDK/GoogleAdMobAdsSdkiOS-6.8.0",
 				);
 				PRODUCT_NAME = Reader;
+				PROVISIONING_PROFILE = "B76DE9FF-0918-4645-8DFF-7BE5C32772AE";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -673,6 +704,7 @@
 					"/Users/karakei/Documents/Study/GitTomCallon/Common_iPhone_20/3PP-SDK/GoogleAdMobAdsSdkiOS-6.8.0",
 				);
 				PRODUCT_NAME = Reader;
+				PROVISIONING_PROFILE = "B76DE9FF-0918-4645-8DFF-7BE5C32772AE";
 			};
 			name = Testing;
 		};

@@ -71,8 +71,38 @@
 //
 //	self.title = [NSString stringWithFormat:@"%@ v%@", name, version];
     
-    self.title =@"了解女人心";
+    
+    ///添加背景图片
 
+    UIImageView *backGroundView = [[UIImageView alloc]initWithFrame:self.view.frame];
+    
+    
+    
+    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone){
+        
+        
+        [backGroundView setImage:[UIImage imageNamed:@"640X1136.png"]];
+        
+        
+        
+    }else{
+        [backGroundView setImage:[UIImage imageNamed:@"1536X2048.png"]];
+    }
+    
+    
+    [self.view addSubview:backGroundView];
+    
+    
+    
+    [[UIApplication sharedApplication] setStatusBarHidden:YES withAnimation:UIStatusBarAnimationNone];
+    
+    
+    
+    
+    
+    self.title =@"了解女人心";
+    
+     
 	CGSize viewSize = self.view.bounds.size;
 
 	CGRect labelRect = CGRectMake(0.0f, 0.0f, 80.0f, 32.0f);

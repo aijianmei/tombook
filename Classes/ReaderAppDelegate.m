@@ -50,10 +50,15 @@
 
 	navigationController = [[UINavigationController alloc] initWithRootViewController:readerDemoController];
 
-	mainWindow.backgroundColor = [UIColor grayColor]; // Neutral gray window background color
+	mainWindow.backgroundColor = [UIColor clearColor]; // Neutral gray window background color
 
-	navigationController.navigationBar.barStyle = UIBarStyleBlack; navigationController.navigationBar.translucent = YES;
-
+	navigationController.navigationBar.barStyle = UIBarStyleBlack;
+    
+    navigationController.navigationBar.translucent = YES;
+    [navigationController.navigationBar setHidden:YES];
+    [navigationController.navigationController.navigationBar setBarTintColor:[UIColor clearColor]];
+    
+    
 	mainWindow.rootViewController = navigationController; // Set the root view controller
 
 	[mainWindow makeKeyAndVisible];
