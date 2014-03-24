@@ -32,6 +32,9 @@
 #import "ReaderThumbCache.h"
 #import "ReaderThumbQueue.h"
 
+#import "GADBannerView.h"
+
+
 #import <MessageUI/MessageUI.h>
 
 @interface ReaderViewController () <UIScrollViewDelegate, UIGestureRecognizerDelegate, MFMailComposeViewControllerDelegate,
@@ -59,6 +62,10 @@
 	NSDate *lastHideTime;
 
 	BOOL isVisible;
+    
+    
+    GADBannerView *bannerView_;
+
 }
 
 #pragma mark Constants
@@ -71,6 +78,9 @@
 #define PAGEBAR_HEIGHT 48.0f
 
 #define TAP_AREA_SIZE 48.0f
+
+#define MY_BANNER_UNIT_ID  @"a14f8a74b52e651"
+
 
 #pragma mark Properties
 
@@ -371,6 +381,40 @@
 	[singleTapOne requireGestureRecognizerToFail:doubleTapOne]; // Single tap requires double tap to fail
 
 	contentViews = [NSMutableDictionary new]; lastHideTime = [NSDate date];
+    
+    
+    
+    
+    // Create a view of the standard size at the bottom of the screen.
+    CGRect  iPhoneFrame  = CGRectMake(0.0,self.view.frame.size.height - GAD_SIZE_320x50.height ,GAD_SIZE_320x50.width ,GAD_SIZE_320x50.height);
+    
+    CGRect  iPadFrame  = CGRectMake(0.0,self.view.frame.size.height - GAD_SIZE_728x90.height ,GAD_SIZE_728x90.width + 40,GAD_SIZE_728x90.height);
+    
+    CGRect iOSFrame;
+    if ([UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPad){
+        iOSFrame = iPadFrame;
+    }else {
+        iOSFrame = iPhoneFrame;
+    };
+    
+
+    // Create a view of the standard size at the top of the screen.
+    // Available AdSize constants are explained in GADAdSize.h.
+    bannerView_ = [[GADBannerView alloc] initWithAdSize:kGADAdSizeBanner];
+    
+    // Specify the ad unit ID.
+    bannerView_.adUnitID = MY_BANNER_UNIT_ID;
+    
+    // Let the runtime know which UIViewController to restore after taking
+    // the user wherever the ad goes and add it to the view hierarchy.
+    bannerView_.rootViewController = self;
+    [self.view addSubview:bannerView_];
+    
+    [bannerView_ setFrame:iOSFrame];
+    
+    // Initiate a generic request to load it with an ad.
+    [bannerView_ loadRequest:[GADRequest request]];
+
 }
 
 - (void)viewWillAppear:(BOOL)animated
@@ -835,6 +879,44 @@
 
 - (void)tappedInToolbar:(ReaderMainToolbar *)toolbar emailButton:(UIButton *)button
 {
+    
+#if (READER_ENABLE_MAIL == TRUE) // Option
+    
+	if ([MFMailComposeViewController canSendMail] == NO) return;
+    
+	if (printInteraction != nil) [printInteraction dismissAnimated:YES];
+    
+	unsigned long long fileSize = [document.fileSize unsignedLongLongValue];
+    
+	if (fileSize < (unsigned long long)15728640) // Check attachment size limit (15MB)
+	{
+		NSURL *fileURL = document.fileURL;
+//        NSString *fileName = document.fileName; // Document
+        
+		NSData *attachment = [NSData dataWithContentsOfURL:fileURL options:(NSDataReadingMapped|NSDataReadingUncached) error:nil];
+        
+		if (attachment != nil) // Ensure that we have valid document file attachment data
+		{
+			MFMailComposeViewController *mailComposer = [MFMailComposeViewController new];
+            
+//			[mailComposer addAttachmentData:attachment mimeType:@"application/pdf" fileName:fileName];
+            
+			[mailComposer setSubject:@"了解女人心下载地址"]; // Use the document file name for the subject
+            
+			mailComposer.modalTransitionStyle = UIModalTransitionStyleCoverVertical;
+			mailComposer.modalPresentationStyle = UIModalPresentationFormSheet;
+            
+			mailComposer.mailComposeDelegate = self; // Set the delegate
+            
+			[self presentViewController:mailComposer animated:YES completion:NULL];
+		}
+	}
+    
+#endif // end of READER_ENABLE_MAIL Option
+    
+    
+    
+    /*
 #if (READER_ENABLE_MAIL == TRUE) // Option
 
 	if ([MFMailComposeViewController canSendMail] == NO) return;
@@ -867,6 +949,8 @@
 	}
 
 #endif // end of READER_ENABLE_MAIL Option
+     
+     */
 }
 
 - (void)tappedInToolbar:(ReaderMainToolbar *)toolbar markButton:(UIButton *)button

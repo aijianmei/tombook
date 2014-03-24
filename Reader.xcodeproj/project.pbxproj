@@ -59,7 +59,13 @@
 		4A06082A18E02ED7005AD5D5 /* libGoogleAdMobAds.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A0607DB18E02ED7005AD5D5 /* libGoogleAdMobAds.a */; };
 		4A06082B18E02ED7005AD5D5 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4A0607DC18E02ED7005AD5D5 /* README.txt */; };
 		4A06083318E02EF7005AD5D5 /* 泡妞指导系列之解剖女人的心理,教你如何泡妞.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4A06083218E02EF7005AD5D5 /* 泡妞指导系列之解剖女人的心理,教你如何泡妞.pdf */; };
-		4A06083518E02F30005AD5D5 /* Images-2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A06083418E02F30005AD5D5 /* Images-2.xcassets */; };
+		4A06083518E02F30005AD5D5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A06083418E02F30005AD5D5 /* Images.xcassets */; };
+		4A96F3EE18E05BE9002A53D4 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A96F3ED18E05BE9002A53D4 /* AudioToolbox.framework */; };
+		4A96F3F718E05C71002A53D4 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A96F3F618E05C71002A53D4 /* AdSupport.framework */; };
+		4A96F40118E05CF9002A53D4 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A96F40018E05CF9002A53D4 /* StoreKit.framework */; };
+		4A96F40518E05D23002A53D4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A96F40418E05D23002A53D4 /* SystemConfiguration.framework */; };
+		4A96F40618E05D31002A53D4 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A96F3FA18E05C87002A53D4 /* CoreTelephony.framework */; };
+		4A96F40A18E05E08002A53D4 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A96F40918E05E08002A53D4 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -165,7 +171,18 @@
 		4A0607DB18E02ED7005AD5D5 /* libGoogleAdMobAds.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAdMobAds.a; sourceTree = "<group>"; };
 		4A0607DC18E02ED7005AD5D5 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 		4A06083218E02EF7005AD5D5 /* 泡妞指导系列之解剖女人的心理,教你如何泡妞.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "泡妞指导系列之解剖女人的心理,教你如何泡妞.pdf"; sourceTree = "<group>"; };
-		4A06083418E02F30005AD5D5 /* Images-2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = "Images-2.xcassets"; path = "Reader/Images-2.xcassets"; sourceTree = "<group>"; };
+		4A06083418E02F30005AD5D5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Reader/Images.xcassets; sourceTree = "<group>"; };
+		4A96F3ED18E05BE9002A53D4 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		4A96F3EF18E05BF2002A53D4 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		4A96F3F118E05BFD002A53D4 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		4A96F3F618E05C71002A53D4 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		4A96F3F818E05C7A002A53D4 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		4A96F3FA18E05C87002A53D4 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		4A96F3FE18E05CEF002A53D4 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		4A96F40018E05CF9002A53D4 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		4A96F40218E05D17002A53D4 /* libAccessibility.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libAccessibility.dylib; path = usr/lib/libAccessibility.dylib; sourceTree = SDKROOT; };
+		4A96F40418E05D23002A53D4 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		4A96F40918E05E08002A53D4 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		8D1107310486CEB800E47090 /* Reader-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Reader-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -174,6 +191,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A96F40A18E05E08002A53D4 /* AVFoundation.framework in Frameworks */,
+				4A96F40618E05D31002A53D4 /* CoreTelephony.framework in Frameworks */,
+				4A96F40518E05D23002A53D4 /* SystemConfiguration.framework in Frameworks */,
+				4A96F40118E05CF9002A53D4 /* StoreKit.framework in Frameworks */,
+				4A96F3F718E05C71002A53D4 /* AdSupport.framework in Frameworks */,
+				4A96F3EE18E05BE9002A53D4 /* AudioToolbox.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				4A06082A18E02ED7005AD5D5 /* libGoogleAdMobAds.a in Frameworks */,
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
@@ -248,6 +271,17 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4A96F40918E05E08002A53D4 /* AVFoundation.framework */,
+				4A96F40418E05D23002A53D4 /* SystemConfiguration.framework */,
+				4A96F40218E05D17002A53D4 /* libAccessibility.dylib */,
+				4A96F40018E05CF9002A53D4 /* StoreKit.framework */,
+				4A96F3FE18E05CEF002A53D4 /* MobileCoreServices.framework */,
+				4A96F3FA18E05C87002A53D4 /* CoreTelephony.framework */,
+				4A96F3F818E05C7A002A53D4 /* AudioUnit.framework */,
+				4A96F3F618E05C71002A53D4 /* AdSupport.framework */,
+				4A96F3F118E05BFD002A53D4 /* CoreMedia.framework */,
+				4A96F3EF18E05BF2002A53D4 /* CoreAudio.framework */,
+				4A96F3ED18E05BE9002A53D4 /* AudioToolbox.framework */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
@@ -272,7 +306,7 @@
 			children = (
 				45BD5A7C13AE6C3B00D6FE97 /* Sources */,
 				45CED630140BD22A0092F460 /* Support */,
-				4A06083418E02F30005AD5D5 /* Images-2.xcassets */,
+				4A06083418E02F30005AD5D5 /* Images.xcassets */,
 			);
 			name = Reader;
 			sourceTree = "<group>";
@@ -484,7 +518,7 @@
 				45AB72CA141FBFCA003524C3 /* Reader-Email@2x.png in Resources */,
 				45AB72CB141FBFCA003524C3 /* Reader-Mark-N.png in Resources */,
 				45AB72CC141FBFCA003524C3 /* Reader-Mark-N@2x.png in Resources */,
-				4A06083518E02F30005AD5D5 /* Images-2.xcassets in Resources */,
+				4A06083518E02F30005AD5D5 /* Images.xcassets in Resources */,
 				45AB72CD141FBFCA003524C3 /* Reader-Mark-Y.png in Resources */,
 				45AB72CE141FBFCA003524C3 /* Reader-Mark-Y@2x.png in Resources */,
 				45AB72CF141FBFCA003524C3 /* Reader-Print.png in Resources */,

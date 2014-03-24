@@ -63,13 +63,15 @@
 
 	self.view.backgroundColor = [UIColor clearColor]; // Transparent
 
-	NSDictionary *infoDictionary = [[NSBundle mainBundle] infoDictionary];
-
-	NSString *name = [infoDictionary objectForKey:@"CFBundleName"];
-
-	NSString *version = [infoDictionary objectForKey:@"CFBundleVersion"];
-
-	self.title = [NSString stringWithFormat:@"%@ v%@", name, version];
+//	NSDictionary *infoDictionary = [[NSBundle mainBundle] infoDictionary];
+//
+//	NSString *name = [infoDictionary objectForKey:@"CFBundleName"];
+//
+//	NSString *version = [infoDictionary objectForKey:@"CFBundleVersion"];
+//
+//	self.title = [NSString stringWithFormat:@"%@ v%@", name, version];
+    
+    self.title =@"了解女人心";
 
 	CGSize viewSize = self.view.bounds.size;
 
@@ -77,7 +79,7 @@
 
 	UILabel *tapLabel = [[UILabel alloc] initWithFrame:labelRect];
 
-	tapLabel.text = @"Tap";
+	tapLabel.text = @"";
 	tapLabel.textColor = [UIColor whiteColor];
 	tapLabel.textAlignment = NSTextAlignmentCenter;
 	tapLabel.backgroundColor = [UIColor clearColor];
@@ -197,8 +199,6 @@
 
 #endif // DEMO_VIEW_CONTROLLER_PUSH
 	}
-    
-    
     
 }
 

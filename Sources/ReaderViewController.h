@@ -38,6 +38,10 @@
 @end
 
 @interface ReaderViewController : UIViewController
+{
+    // Declare one as an instance variable
+
+}
 
 @property (nonatomic, weak, readwrite) id <ReaderViewControllerDelegate> delegate;
 
